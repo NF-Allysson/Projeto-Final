@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding:0%;
+    font-family:'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    background: gray;
+}
+.listamenu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: auto;
+    height: 70px;
+    width: 85%;
+    align-items: center;
+}
+nav ul li:hover{
+    background: darkslategray;
+    
+}
+nav ul li{
+    transition: background 1s;
+    padding: 24px;
+    width: 20%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li ul{
+    list-style: none;
+    display: none;
+    border-radius: 25px;
+    position: absolute;
+    padding: 10px;
+    background: gray;
+    transition: background .3s;
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul li{
+    width: 250px;
+    border-radius: 6px;
+    text-align:center;
+}
+nav ul li ul li a{
+    padding: 10px;
+}
