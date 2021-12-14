@@ -17,6 +17,9 @@ nav{
     width: 85%;
     align-items: center;
 }
+h1{
+    font-size: 22px;
+}
 nav ul li:hover{
     background: darkslategray;
     
@@ -29,12 +32,13 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: white;
+    font-size: 15px;
 }
 nav ul li ul{
     list-style: none;
     display: none;
     border-radius: 25px;
-    position: absolute;
+    position:fixed;
     padding: 10px;
     background: gray;
     transition: background .3s;
@@ -49,4 +53,24 @@ nav ul li ul li{
 }
 nav ul li ul li a{
     padding: 10px;
+}
+.login{
+    width: 200px;
+    height: 80%;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.dropdown{
+        width: 100px;
+        height: 80%;
+        background: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+i{
+    font-style: normal;
 }
