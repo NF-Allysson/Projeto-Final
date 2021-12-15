@@ -20,6 +20,7 @@ nav{
     width: 85%;
     align-items: center;
     z-index: 10;
+    border: none;
 }
 h1{
     font-size: 22px;
@@ -32,7 +33,15 @@ nav ul li{
     transition: background 1s;
     padding: 23px;
     width: 20%;
+    border-right: 1px solid #afb1b7;
 }
+nav ul li .claro{
+     transition: background 1s;
+    padding: 23px;
+    width: 20%;
+    border: 0px
+}
+
 nav ul li a{
     text-decoration: none;
     color: white;
@@ -121,4 +130,7 @@ h2 {
 .grid, .grid-1{
     display: inline-block;
     font-size: 20px;
-} 
+}
+.linha1{
+    text-align: center;
+}
