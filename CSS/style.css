@@ -20,10 +20,10 @@ nav{
     width: 85%;
     align-items: center;
     z-index: 10;
-    border: none;
 }
 h1{
-    font-size: 22px;
+    font-size: 24px;
+    margin: auto;
 }
 nav ul li:hover{
     background: darkslategray;
@@ -36,10 +36,9 @@ nav ul li{
     border-right: 1px solid #afb1b7;
 }
 nav ul li .claro{
-     transition: background 1s;
+    transition: background 1s;
     padding: 23px;
     width: 20%;
-    border: 0px
 }
 
 nav ul li a{
@@ -77,13 +76,13 @@ nav ul li ul li a{
 
 }
 .dropdown{
-        width: 100px;
-        height: 80%;
-        background: gray;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 11;
+    width: 100px;
+    height: 80%;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 11;
 }
 i{
     font-style: normal;
@@ -132,5 +131,22 @@ h2 {
     font-size: 20px;
 }
 .linha1{
+    text-align: center;
+}
+#claro{
+    border: none;
+}
+div ol{
+    list-style: none;
+}
+div ol li{
+    border: 0.5px solid #000;
+    text-align: justify;
+}
+div ol li a{
+    text-decoration: none;
+    color: black;
+}
+.linha2{
     text-align: center;
 }
