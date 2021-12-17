@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding:0%;
+    font-family:'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    overflow-x:hidden;
+    margin: 0px;
+}
+.main-login{
+    width: 101.1vw;
+    height: 101.1vh;
+    background: darkslategray;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+form{
+    background: darkslategray;
+    width: 100%;
+    height: 100%;
+}
+.voltar{
+    width: 15%;
+    background: gray;
+    margin: 1%;
+}
+.left-login{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-login>h1{
+    color: gray;
+}
+.right-login{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-login{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: gray;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgb(51, 50, 50);
+}
+.card-login>h4{
+    font-size: 3vw;
+    color:darkslategray;
+    font-weight: 800;
+}
+.left-login-img{
+    width: 35vw;
+}
+.textfield{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.textfield>input{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: darkslategray;
+    color:white;
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 40px rgb(51, 50, 50);
+}
+.textfield>label{
+    margin-bottom: 10px;
+    color: darkslategray;
+}
+.textfield>label::placeholder{
+    color:gray;
+}
+.btn-login{
+    width: 65%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    background: rgb(51, 50, 50);
+    color: gray;
+    letter-spacing: 3px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px rgb(36, 75, 75);
+}
